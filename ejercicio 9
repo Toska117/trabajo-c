@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("Bienvenido a c++ \n Pronto iniciaremos a programar en c");
+    
+
+    return 0;
+}
