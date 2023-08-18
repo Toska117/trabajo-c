@@ -1,0 +1,27 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+	int base;
+	int altura;
+	int base2;
+	int altura2;
+	double r;
+	
+	cout<<"Ingrese primer cateto \n";
+    cin>>base;
+    
+    cout<<"ingrese segundo cateto \n";
+    cin>>altura;
+    
+   
+
+    
+    cout<<"la hipotenusa es:  ";
+	base2 = base * base;
+	altura2 = altura * altura;
+	r = sqrt (base2 + altura2);
+	cout<<r;
+	
+}
