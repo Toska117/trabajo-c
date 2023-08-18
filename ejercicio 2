@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	int notauno;
+	int notados;
+	int notatres;
+ int numerocuatro;
+	int suma;
+	
+	cout<<"Ingrese el primer numero \n";
+    cin>>notauno;
+    
+    cout<<"Ingrese segundo numero \n";
+    cin>>notados;
+    
+    	cout<<"Ingrese tercer numero \n";
+    cin>>notatres;
+
+    cout<<"Ingrese cuarto numero \n";
+    cin>>numerocuatro;
+    
+    cout<<"Su suma final es: ";
+	suma = notauno + notados + notatres + numerocuatro;
+	cout<<suma;
+	
+}
