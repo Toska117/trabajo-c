@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	int tarifa;
+	int horas;
+	int suma;
+	int dias;
+	
+	cout<<"Ingrese su tarifa horaria \n";
+    cin>>tarifa;
+    
+    cout<<"cuantas horas trabaja al dia? \n";
+    cin>>horas;
+    
+    cout<<"cuantos dias trabaja a la semana? \n";
+    cin>>dias;
+    
+
+    
+    cout<<"Su salario semanal es: ";
+	suma = tarifa * horas * dias;
+	cout<<suma;
+	
+}
